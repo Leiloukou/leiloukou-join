@@ -244,7 +244,9 @@ textarea::-webkit-scrollbar-thumb {
     background-color: #f1c996;
     padding: 1.25rem;
     border-radius: 1.25rem;
-    box-shadow: 0 0 0 .125rem #ffffff;
+    box-shadow:
+    0 0 0 .125rem #ffffff,
+    0 0 0 .25rem #000;
 }
 
 /* * join */
